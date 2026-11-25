@@ -6,6 +6,7 @@
   <Import Project="../MSBuild/Content.props" />
   <ItemGroup>
     <PackageReference Include="JetBrains.Annotations" PrivateAssets="All" />
+    <PackageReference Include="Serilog" />
     <PackageReference Include="YamlDotNet" />
     <!-- WOLFGATE(CustomMarkings): encodes marking art as PNG on the server and in the editor -->
     <PackageReference Include="SixLabors.ImageSharp" />
@@ -18,6 +19,18 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Content.Shared.Database\Content.Shared.Database.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="_DV\Chemistry\Components\" />
+    <Folder Include="_DV\Chemistry\EntitySystems\" />
+    <Folder Include="_DV\Traits\Conditions\" />
+    <Folder Include="_DV\Traits\Effects\" />
+    <Folder Include="_Floof\InteractionVerbs\Events\" />
+    <Folder Include="_Floof\InteractionVerbs\Requirements\" />
+    <Folder Include="_Floof\Lewd\Components\" />
+    <Folder Include="_Floof\Lewd\Systems\" />
+    <Folder Include="_Floof\Traits\Effects\" />
   </ItemGroup>
 
   <Import Project="..\RobustToolbox\MSBuild\Robust.Properties.targets" />

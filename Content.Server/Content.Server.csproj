@@ -26,6 +26,8 @@
     <ProjectReference Include="..\Content.Shared\Content.Shared.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="_Floof\InteractionVerbs\Actions\Lewd\" />
+    <Folder Include="_Floof\Lewd\Systems\" />
     <Folder Include="_Impstation\Speech\Components\" />
     <Folder Include="_Impstation\Speech\EntitySystems\" />
     <Folder Include="_Omu\Speech\Components\" />
