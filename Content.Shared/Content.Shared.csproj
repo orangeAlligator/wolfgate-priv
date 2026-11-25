@@ -31,6 +31,8 @@
     <Folder Include="_Floof\Lewd\Components\" />
     <Folder Include="_Floof\Lewd\Systems\" />
     <Folder Include="_Floof\Traits\Effects\" />
+    <Folder Include="_Floof\Traits\Events\" />
+    <Folder Include="_Floof\Verbs\" />
   </ItemGroup>
 
   <Import Project="..\RobustToolbox\MSBuild\Robust.Properties.targets" />

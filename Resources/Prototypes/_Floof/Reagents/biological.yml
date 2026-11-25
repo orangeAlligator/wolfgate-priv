@@ -1,0 +1,31 @@
+- type: reagent
+  id: Cum
+  name: reagent-name-cum
+  group: Biological
+  desc: reagent-desc-cum
+  physicalDesc: reagent-physical-desc-sticky
+  flavor: salty
+  color: "#ffffff"
+  recognizable: true
+  evaporationSpeed: 0.01 # evaporates on its own in time, this is the limit of how slowly we can evaporate
+  metabolisms:
+    Digestion:
+      effects:
+      - !type:SatiateThirst
+        factor: 1 # 3x lower than regular drinks
+
+- type: reagent
+  id: NaturalLubricant
+  name: reagent-name-nat-lube
+  group: Biological
+  desc: reagent-desc-nat-lube
+  physicalDesc: reagent-physical-desc-shiny
+  flavor: funny
+  color: "#d6d6d6"
+  recognizable: true
+  evaporationSpeed: 0.01 # evaporates on its own in time, this is the limit of how slowly we can evaporate
+  metabolisms:
+    Digestion:
+      effects:
+      - !type:SatiateThirst
+        factor: 1 # 3x lower than regular drinks
