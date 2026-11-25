@@ -26,13 +26,13 @@
     <Folder Include="_DV\Chemistry\EntitySystems\" />
     <Folder Include="_DV\Traits\Conditions\" />
     <Folder Include="_DV\Traits\Effects\" />
+    <Folder Include="_Floof\CCVar\" />
     <Folder Include="_Floof\InteractionVerbs\Events\" />
     <Folder Include="_Floof\InteractionVerbs\Requirements\" />
     <Folder Include="_Floof\Lewd\Components\" />
     <Folder Include="_Floof\Lewd\Systems\" />
     <Folder Include="_Floof\Traits\Effects\" />
     <Folder Include="_Floof\Traits\Events\" />
-    <Folder Include="_Floof\Verbs\" />
   </ItemGroup>
 
   <Import Project="..\RobustToolbox\MSBuild\Robust.Properties.targets" />
